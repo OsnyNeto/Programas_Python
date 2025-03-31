@@ -299,10 +299,7 @@ def main():
 
     while True:
         
-        # opcao = input(menu()).lower()
         opcao = menu().lower()
-
-        # opcoes = ["d","s","e","q","nc","cc","l"]
 
         if opcao == 'd':
             depositar(clientes)
