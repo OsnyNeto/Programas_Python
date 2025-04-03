@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="osny_imagem_processing",
-    version="0.0.2",
+    version="0.0.1",
     author="Osny",
     author_email="osnynt@gmail.com",
     description="Processamento de imagens com Python",
