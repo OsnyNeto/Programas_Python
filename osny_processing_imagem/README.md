@@ -38,10 +38,15 @@ pip install processamento-imagens-com-python
 python setup.py sdist bdist_wheel
 
 ```
-## Comando para fazer o deploy do projeto
+## Comando para fazer o deploy do projeto no pyTest
 
 ```bash
 python -m twine upload --repository testpypi dist/*
+```
+## Comando para fazer o deploy do projeto no PyPi
+
+```bash
+python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
 ```
 
 ### Uso
