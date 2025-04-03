@@ -14,7 +14,7 @@ setup(
     description="Processamento de imagens com Python",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/OsnyNeto/Programas_Python/tree/main/package-template-master",
+    url="https://github.com/OsnyNeto/Programas_Python/tree/main/processamento_imagens_com_python",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
