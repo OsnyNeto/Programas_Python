@@ -38,10 +38,16 @@ pip install processamento-imagens-com-python
 python setup.py sdist bdist_wheel
 
 ```
+## Comando para fazer o deploy do projeto
+
+```bash
+python -m twine upload --repository testpypi dist/*
+```
 
 ### Uso
 
 ```python
+# Exemplos de utilização
 from processamento-imagens-com-python.processing import combination, transformation
     # opção 1
     combination.find_difference(image1,image2)
