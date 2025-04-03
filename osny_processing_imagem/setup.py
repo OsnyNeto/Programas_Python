@@ -7,9 +7,9 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="osny_imagem_processing",
+    name="osny_processing_imagem",
     version="0.0.1",
-    author="Osny",
+    author="Osny Neto",
     author_email="osnynt@gmail.com",
     description="Processamento de imagens com Python",
     long_description=page_description,
