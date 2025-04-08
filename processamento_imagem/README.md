@@ -23,14 +23,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install process
 ```bash
 # Boas Práticas
 # Primeiro fazer o upgrade do pip e programas utilizados
-
 python -m pip install --upgrade pip, twine, setuptools
-python -m pip --user twine
-python -m pip --user setuptools
-
-# Instalando o pacote
-
-pip install processamento-imagens-com-python
 ```
 
 ## Comando para criar as distribuições
@@ -49,24 +42,33 @@ python -m twine upload --repository testpypi dist/*
 python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
 ```
 
+## Instalando pacote através do PyPi
+```bash
+	# Instalando o pacote do PyPi
+	pip install processamento_imagem
+```
+
 ### Uso
 
 ```python
 # Exemplos de utilização
-from processamento-imagens-com-python.processing import combination, transformation
+from processamento_imagem.processing import combination, transformation
     # opção 1
     combination.find_difference(image1,image2)
     # opção 2
     combination.transfer_histogram(image1,image2)
     # opção 3
     transformation.resize_image(image,proportion)
+
+from processamento_imagem.utils import io, plot
+	io.read_image(path image)
 ```
 
 ## Author
 Osny Neto
 
 ## Github
-💻 [GituHub](https://github.com/OsnyNeto/Programas_Python/tree/main/processamento_imagens_com_python)
+💻 [GituHub](https://github.com/OsnyNeto/Programas_Python/tree/main/processamento_imagem)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
