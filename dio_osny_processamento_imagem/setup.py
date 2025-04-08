@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="processamento_imagem",
+    name="dio_osny_processamento_imagem",
     version="0.0.1",
     author="Osny MSN",
     author_email="osnynt@gmail.com",
     description="Processamento de imagens com Python",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/OsnyNeto/Programas_Python/tree/main/processamento_imagem",
+    url="https://github.com/OsnyNeto/Programas_Python/tree/main/dio_osny_processamento_imagem",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',

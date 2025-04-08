@@ -45,14 +45,14 @@ python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
 ## Instalando pacote através do PyPi
 ```bash
 	# Instalando o pacote do PyPi
-	pip install processamento_imagem
+	pip install dio_osny_processamento_imagem
 ```
 
 ### Uso
 
 ```python
 # Exemplos de utilização
-from processamento_imagem.processing import combination, transformation
+from dio_osny_processamento_imagem.processing import combination, transformation
     # opção 1
     combination.find_difference(image1,image2)
     # opção 2
@@ -60,7 +60,7 @@ from processamento_imagem.processing import combination, transformation
     # opção 3
     transformation.resize_image(image,proportion)
 
-from processamento_imagem.utils import io, plot
+from dio_osny_processamento_imagem.utils import io, plot
 	io.read_image(path image)
 ```
 
@@ -68,7 +68,7 @@ from processamento_imagem.utils import io, plot
 Osny Neto
 
 ## Github
-💻 [GituHub](https://github.com/OsnyNeto/Programas_Python/tree/main/processamento_imagem)
+💻 [GituHub](https://github.com/OsnyNeto/Programas_Python/tree/main/dio_osny_processamento_imagem)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
