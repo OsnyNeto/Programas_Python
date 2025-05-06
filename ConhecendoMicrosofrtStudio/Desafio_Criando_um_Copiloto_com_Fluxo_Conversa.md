@@ -11,6 +11,8 @@ Foi falado sobre as respostas generativas e como elas funcionam e formas de uso.
 
 Escolha o tópico a ser customizado ou melhorado.
 
+Foi criado um tópico em branco e configurado conforme as indicações do instrutor. 
+
 Os tópicos de "Conversation boosting" e "Fallback" foram dado ênfase, devido a esses tópicos ajudar o usuário caso o agente não encontre uma resposta apropriada para o usuário.
 
 
