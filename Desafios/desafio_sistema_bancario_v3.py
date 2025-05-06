@@ -1,6 +1,6 @@
 # Descrição: Sistema bancário com as funções de depósito, saque e extrato.
 # Autor: Osny Machado de Souza Neto
-from abc import ABC,abstractmethod,abstractproperty
+from abc import ABC,abstractmethod
 from datetime import datetime
 
 def menu():
@@ -151,7 +151,6 @@ class Historico:
 
 class Transacao(ABC):
     @property
-    @abstractproperty
     def valor(self):
         pass
 
