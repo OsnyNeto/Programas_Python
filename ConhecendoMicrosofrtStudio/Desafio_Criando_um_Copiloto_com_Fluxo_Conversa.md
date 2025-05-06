@@ -7,14 +7,14 @@ Este é um breve resumo como criar um fluxo de conversa no Copilot Studio.
 
 Estando aonde você possui o seu agente, vá na opção "Tópicos".
 
-Foi falado sobre as respostas generativas e como elas funcionam e formas de uso.
+Foi falado sobre as respostas generativas e como elas funcionam e formas de uso. Como configurá-las, usar variáveis e testar o agente provocando falhas para ver como ele se comporta.
 
 Escolha o tópico a ser customizado ou melhorado.
 
 Os tópicos de "Conversation boosting" e "Fallback" foram dado ênfase, devido a esses tópicos ajudar o usuário caso o agente não encontre uma resposta apropriada para o usuário.
 
 
-## Autores
+## Autor
 
-- [@OsnyNeto](https://www.github.com/octokatherine)
+- [@OsnyNeto](https://github.com/OsnyNeto)
 
